@@ -1,0 +1,64 @@
+
+/* Adicionando borda a um parágrafo*/
+.paragrafo-com-borda {
+    border: 2px solid red;
+    padding: 25px 0;
+}
+
+/* Div Estático -> Padrão dos Elementos do tipo Bloco*/
+.div-static {
+    border: 2px solid blueviolet;
+    height: 50px;
+
+    position: solid;
+    left: 50px;
+}
+
+/* Div Relativo -> Posição relativa em relação à SUA PRÓPRIA posição inicial*/ 
+.div-relative {
+    border: 2px solid green;
+    height: 900px;
+
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+/* Div Absoluto -> Posição relativa emm relação à POSIÇÃO DO ELEMENTO PAI (caso ele seja position:relative)*/
+.div-absolute {
+    border: 2px solid salmon;
+    height:100px;
+
+    position: absolute;
+
+    width: 150px ;
+
+    left: 90px;
+    top: 70px;
+}
+
+.div-fixed {
+    border: 2px solid pink;
+    height: 50px;
+    width: 300px;
+
+    position: fixed;
+
+    bottom: 0;
+    right: 0;
+}
+
+.div-sticky {
+    background-color: orange;
+    border: 2px solid orange;
+
+    height: 50px;
+
+    position: sticky;
+
+    top: 0px;
+}
+
+
+
+
